@@ -1,0 +1,43 @@
+After reset, the counter starts at:
+
+0000
+
+Then it counts:
+
+Count	Binary
+0	     0000
+1	     0001
+2	     0010
+3	     0011
+4	     0100
+5	     0101
+6	     0110
+7	     0111
+8	     1000
+9	     1001
+10	     1010
+11	     1011
+12	     1100
+13	     1101
+14	     1110
+15	     1111
+0	     0000
+Simple waveform idea
+Clock : _|‾|_|‾|_|‾|_|‾|_|‾|_
+
+Q     : 0000
+        0001
+        0010
+        0011
+        0100
+        0101
+        ...
+        1111
+        0000
+
+The testbench automatically creates:
+
+output.vcd
+
+You can open this file using GTKWave.
+
